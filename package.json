@@ -1,0 +1,42 @@
+{
+  "name": "file-upload-api",
+  "version": "1.0.0",
+  "description": "A basic file upload API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpesanyaAdebayo/file-upload-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OpesanyaAdebayo/file-upload-api/issues"
+  },
+  "homepage": "https://github.com/OpesanyaAdebayo/file-upload-api#readme",
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.5",
+    "typescript": "^3.6.4",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/hapi__joi": "^16.0.1",
+    "@types/mongoose": "^5.5.21",
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2"
+  }
+}
